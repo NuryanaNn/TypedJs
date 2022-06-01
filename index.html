@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+    <title>Typed Js</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            align-items: center;
+            background: #000;
+            color: #fff;
+        }
+    </style>
+
+    <h1>I'm <span id="typed"></span></h1>
+
+    <script>
+        var typed = new Typed("#typed", {
+            strings: ["Developer", "Designer", "Youtuber", "Freelancer"],
+            typeSpeed: 70,
+            startDelay: 90,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
